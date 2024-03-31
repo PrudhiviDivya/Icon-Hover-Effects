@@ -1,0 +1,109 @@
+.logo img{
+    width: 100px;
+    border-radius: 50px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-b;
+}
+.section a{
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+
+}
+.section {
+    padding-top: 30px;
+
+}
+.Hero {
+    display: flex;
+    /*padding: 100px;*/
+    height: 85vh;
+    width: 100%;
+    align-items: center;
+}
+.Hero-text{
+    width: 60%;
+    text-align: center;
+}
+.Hero-text h1{
+    font-size: 80px;
+}
+.Hero-text span{
+    color: tomato;
+}
+.Hero-text p{
+    font-size: 40px;
+}
+.Hero-image{
+    width: 40%;
+}
+.Hero-image img{
+    width: 100%;
+    
+}
+.Hero-text button{
+    padding: 10px;
+    background-color: wheat;
+    border-radius: 15px;
+    color: brown;
+    font-size: 20px;
+    box-shadow: 0px 5px 15px red;
+    cursor: pointer;
+}
+h2{
+    text-align: center;
+    color: tomato;
+    font-size: 50px;
+    font-family: cursive;
+}
+.Services{
+    display: flex;
+    justify-content: space-evenly;
+   
+
+}
+.Sub-Services{
+    text-align: center;
+    background-color: wheat;
+    width: 300px;
+    margin: 20px;
+    padding: 15px ;
+    border-radius: 5px 30px;
+    border-style: hidden;
+    border: 2px outset red;
+    box-shadow: 10px 10px 10px tomato inset;
+
+}
+.Sub-Services:hover{
+    transform: scale(1.2);
+    transition: 0.8s;
+}
+.Sub-Services h1:hover{
+    color: tomato;
+}
+.Footer h1{
+    text-align: center;
+    color: tomato;
+    font-size: 50px;
+    font-family: cursive;
+}
+.Footer {
+    text-align: center;
+} 
+.Footer i{
+    padding: 20px;
+    cursor: pointer;
+}
+.youtube:hover{
+    color: red;
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+.snapchat:hover{
+    color: yellow;
+}

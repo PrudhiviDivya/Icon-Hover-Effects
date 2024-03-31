@@ -1,0 +1,11 @@
+.Header {
+    background: url(buddha.jpg) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    width: 99vw;
+
+}
+.Header h1{
+    color: aliceblue;
+}
